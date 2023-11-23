@@ -155,7 +155,9 @@ include('../app/config.php');
                                     </div>
                                 </div>
 
-                                     <div class="col-md-6">
+
+
+                                      <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">CUROS GENERALES</label>
                                             <select name="especialidad" id="" class="form-control" required>
@@ -228,7 +230,11 @@ include('../app/config.php');
                                     </div>
                                 </div>
 
-                                              
+
+                                        
+                                        
+                                        
+                                    
 
                                         
                                 <div class="row">
