@@ -178,6 +178,64 @@ include('../app/config.php');
                                 </div>
 
 
+                                     <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TALLERES GASTRONOMIA</label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
+                                                <option value="MODULO DE PIZZAS">MODULO DE PIZZAS</option>
+                                                <option value="MODULO DE HAMBURGUESAS">MODULO DE HAMBURGUESAS</option>
+                                                <option value="MODULO ALITAS Y CHICKEN FINGERS">MODULO DE AITAS Y CHICKEN FINGERS</option>
+                                                <option value="MODULO COMIDA ASIATICA">MODULO COMIDA ASIATICA</option>
+                                                <option value="MODULO COMIDA CHINA">MODULO COMIDA CHINA</option>
+                                                <option value="MODULO COMIDA ITALIANA">MODULO DE COMIDA ITALIANA</option>
+                                                <option value="MODULO DE TABLAS DE QUESO">MODULO DE TABLAS DE QUESO</option>
+                                                <option value="MODULO DE BOQUITAS">MODULO DE BOQUITAS</option>
+                                                <option value="MODULO DE ENCURTIDOS Y JALEAS">MODULO DE ENCURTIDOS Y JALEAS</option>
+                                                <option value="MODULO DE LACTEOS">MODULO DE LACTEOS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                          <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TALLERES REPOSTERIA</label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
+                                                <option value="MODULO DE POSTRES FRIOS">MODULO DE POSTRES FRIOS</option>
+                                                <option value="MODULO DE ELABORACION Y DECORACION DE PASTELES">MODULO DE ELABORACION Y DECORACION DE PASTELES</option>
+                                                <option value="MODULO DE DONAS">MODULO DE DONAS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                              
+                                          <div class="col-md-6">
+                                        <div class="form-group">
+                                            <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TALLERES GENERALES</label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
+                                                <option value="ELABORACION DE JABONES Y VELAS">ELABORACION DE JABONES Y VELAS</option>
+                                                <option value="ELABORACION DE VINOS ARTESANALES">ELABORACION DE VINOS ARTESANALES</option>
+                                                <option value="ELABORACION DE PIÑATAS">ELABORACION DE PIÑATAS</option>
+                                                <option value="BARTENDER">BARTENDER</option>
+                                                <option value="PRIMEROA AUXILIOS">PRIMEROS AUXILIOS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                              
+
                                         
                                 <div class="row">
                                     <div class="col-md-6">
