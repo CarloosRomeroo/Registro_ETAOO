@@ -180,9 +180,7 @@ include('../app/config.php');
 
                                      <div class="col-md-6">
                                         <div class="form-group">
-                                            <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="">TALLERES GASTRONOMIA</label>
+                                           <label for="">TALLERES GASTRONOMIA</label>
                                             <select name="especialidad" id="" class="form-control" required>
                                                 <option value=""></option>
                                                 <option value="MODULO DE PIZZAS">MODULO DE PIZZAS</option>
@@ -201,9 +199,7 @@ include('../app/config.php');
                                 </div>
 
                                           <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="col-md-6">
-                                        <div class="form-group">
+                                           <div class="form-group">
                                             <label for="">TALLERES REPOSTERIA</label>
                                             <select name="especialidad" id="" class="form-control" required>
                                                 <option value=""></option>
@@ -218,8 +214,6 @@ include('../app/config.php');
 
                                               
                                           <div class="col-md-6">
-                                        <div class="form-group">
-                                            <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">TALLERES GENERALES</label>
                                             <select name="especialidad" id="" class="form-control" required>
