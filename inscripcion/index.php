@@ -68,7 +68,7 @@ include('../app/config.php');
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-group">
-                                            <label for="">CEDULA DE IDENTIDAD </label>
+                                            <label for="">DNI </label>
                                             <input type="number" name="ci" class="form-control" required>
                                         </div>
                                     </div>
@@ -149,6 +149,110 @@ include('../app/config.php');
                                     </div>
                                 </div>
 
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TUTOR </label>
+                                            <select name="tutor" id="" class="form-control" required>
+                                                <option value="ALVERTINA H">ALVERTINA H</option>
+                                                <option value="NOEL LOPEZ">NOEL LOPEZ</option>
+                                                <option value="MIRNA LOPEZ">MIRNA LOPEZ</option>
+                                                <option value="ABILIO MIMRAN">ABILIO MIMRAN</option>
+                                                <option value="WENDY VENTURA">WENDY VENTURA</option>
+                                                <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
+                                                <option value="EVELIN TABORA">EVELIN TABORA</option>
+                                                <option value="CARMEN PAZ">CARMEN PAZ</option>
+                                                <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
+                                                <option value="CARLOS KIBHER">CARLOS KIBHER</option>
+                                                <option value="CARLOS LEON">CARLOS LEON</option>
+                                                <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
+                                                <option value="KAREN ALFARO">KAREN ALFARO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">CURSOS TRADICIONALES </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="SOLDADURA">SOLDADURA</option>
+                                                <option value="CARPINTERIA">CARPINTERIA</option>
+                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
+                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TUTOR </label>
+                                            <select name="tutor" id="" class="form-control" required>
+                                                <option value="ALVERTINA H">ALVERTINA H</option>
+                                                <option value="NOEL LOPEZ">NOEL LOPEZ</option>
+                                                <option value="MIRNA LOPEZ">MIRNA LOPEZ</option>
+                                                <option value="ABILIO MIMRAN">ABILIO MIMRAN</option>
+                                                <option value="WENDY VENTURA">WENDY VENTURA</option>
+                                                <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
+                                                <option value="EVELIN TABORA">EVELIN TABORA</option>
+                                                <option value="CARMEN PAZ">CARMEN PAZ</option>
+                                                <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
+                                                <option value="CARLOS KIBHER">CARLOS KIBHER</option>
+                                                <option value="CARLOS LEON">CARLOS LEON</option>
+                                                <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
+                                                <option value="KAREN ALFARO">KAREN ALFARO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">CURSOS TRADICIONALES </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="SOLDADURA">SOLDADURA</option>
+                                                <option value="CARPINTERIA">CARPINTERIA</option>
+                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
+                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TUTOR </label>
+                                            <select name="tutor" id="" class="form-control" required>
+                                                <option value="ALVERTINA H">ALVERTINA H</option>
+                                                <option value="NOEL LOPEZ">NOEL LOPEZ</option>
+                                                <option value="MIRNA LOPEZ">MIRNA LOPEZ</option>
+                                                <option value="ABILIO MIMRAN">ABILIO MIMRAN</option>
+                                                <option value="WENDY VENTURA">WENDY VENTURA</option>
+                                                <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
+                                                <option value="EVELIN TABORA">EVELIN TABORA</option>
+                                                <option value="CARMEN PAZ">CARMEN PAZ</option>
+                                                <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
+                                                <option value="CARLOS KIBHER">CARLOS KIBHER</option>
+                                                <option value="CARLOS LEON">CARLOS LEON</option>
+                                                <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
+                                                <option value="KAREN ALFARO">KAREN ALFARO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">CURSOS TRADICIONALES </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="SOLDADURA">SOLDADURA</option>
+                                                <option value="CARPINTERIA">CARPINTERIA</option>
+                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
+                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div class="row">
                                     <div class="col-md-6">
