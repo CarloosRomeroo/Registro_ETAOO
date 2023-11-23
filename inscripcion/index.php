@@ -110,29 +110,39 @@ include('../app/config.php');
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">CURSO O TALLER </label>
+                                            <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">CURSOS TRADICIONALES </label>
                                             <select name="especialidad" id="" class="form-control" required>
-                                                <option value="COMIDA MEXICANA">COMIDA MEXICANA</option>
-                                                <option value="BARBERIA">BARBERIA</option>
-                                                <option value="BARISMO">BARISMO</option>
-                                                <option value="BARTENDER">BARTENDER</option>
-                                                <option value="ELECTRICIDAD BASICA">ELECTRICIDAD BASICA</option>
-                                                <option value="COSTURA BASICA">COSTURA BASICA</option>
-                                                <option value="BELLEZA Y COSMETOLOGIA">BELLEZA Y COSMETOLOGIA</option>
-                                                <option value="CARPINTERIA BASICA">CARPINTERIA BASICA</option>
-                                                <option value="GASTRONOMIA">GASTRONOMIA</option>
-                                                <option value="COMIDA INTENSIVA">COMIDA INTENSIVA</option>
-                                                <option value="CURSO DE PIÑATAS">CURSO PIÑATA</option>
-                                                <option value="TALLER DE HAMBURGUESAS">TALLER DE HAMBURGUESAS</option>
-                                                <option value="TALLER DE ALITAS Y CHICKEN FINGERS">TALLER DE ALITAS Y CHICKEN FINGERS</option>
-                                                <option value="TALLER DE TACOS">TALLER DE TACOS</option>
-                                                <option value="FLORISTERIA">FLORISTERIA</option>
-                                                <option value="INGLES">INGLES</option>
-                                                <option value="COMIDA INTENSIVA">COMIDA INTENSIVA</option>
-                                                <option value="REPOSTERIA">REPOSTERIA</option>
-                                                <option value="UÑAS ACRILICAS">UÑAS ACRILICAS</option>
-                                                <option value="TALLER DE CAJITAS DE GENGIBRE">TALLER DE CAJITAS DE GENGIBRE</option>
-                                                <option value="TALLER DE COMIDA CHINA">TALLER DE COMIDA CHINA</option>
+                                                <option value="SOLDADURA">SOLDADURA</option>
+                                                <option value="CARPINTERIA">CARPINTERIA</option>
+                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
+                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">GASTRONOMIA GENERAL </label>
+                                            <select name="tutor" id="" class="form-control" required>
+                                                <option value="GASTRONOMIA PARA CHEF">GASTRONOMIA PARA CHEF</option>
+                                                <option value="GASTRONOMIA PARA SUB CHEF">GASTRONOMIA PARA SUB CHEF</option>
+                                                <option value="AYUDANTES DE COCINA">AYUDANTES DE COCINA</option>
+                                                <option value="GASTRONOMIA NACIONAL E INTERNACIONAL">GASTRONOMIA NACIONAL E INTERNACIONAL</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">BARISMO</label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value="BARISMO BASICO">BARISMO BASICO</option>
+                                                <option value="BARISMO INTERMEDIO">BARISMO INTERMEDIO</option>
+                                                <option value="CATACION">CATACION</option>
                                             </select>
                                         </div>
                                     </div>
