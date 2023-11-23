@@ -85,6 +85,38 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div class="form-group">
+                                            <label for="">GENERO </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="MASCULINO">MASCULINO</option>
+                                                <option value="FEMENINO">FEMENINO</option>
+                                                <option value="NO ESPECIFICO">NO ESPECIFICO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label for="">BARRIO/COLONIA </label>
+                                            <input type="text" name="ci" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label for="">DEPARTAMENTO </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="SANTA ROSA DE COPAN">SANTA ROSA DE COPAN</option>
+                                                <option value="CARPINTERIA">CARPINTERIA</option>
+                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
+                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                                </div>
 
 
                                 <div class="row">
