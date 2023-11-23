@@ -92,33 +92,27 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">TUTOR </label>
                                             <select name="tutor" id="" class="form-control" required>
-                                                <option value="ALBERINA HERNANDEZ">ALBERTINA HERNANDEZ</option>
+                                                <option value="ALVERTINA H">ALVERTINA H</option>
                                                 <option value="NOEL LOPEZ">NOEL LOPEZ</option>
-                                                <option value="MIRNA GOMEZ">MIRNA GOMEZ</option>
-                                                <option value="ABILIO MIRANDA">ABILIO MIRANDA</option>
+                                                <option value="MIRNA LOPEZ">MIRNA LOPEZ</option>
+                                                <option value="ABILIO MIMRAN">ABILIO MIMRAN</option>
                                                 <option value="WENDY VENTURA">WENDY VENTURA</option>
                                                 <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
                                                 <option value="EVELIN TABORA">EVELIN TABORA</option>
-                                                <option value="CARMEN CASTRO">CARMEN CASTRO</option>
+                                                <option value="CARMEN PAZ">CARMEN PAZ</option>
                                                 <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
                                                 <option value="CARLOS KIBHER">CARLOS KIBHER</option>
                                                 <option value="CARLOS LEON">CARLOS LEON</option>
                                                 <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
                                                 <option value="KAREN ALFARO">KAREN ALFARO</option>
-                                                 <option value="ALEJANDRA PORTILLO">ALEJANDRA PORTILLO</option>
-                                                <option value="XIOMARA SANTAMARIA">XIOMARA SANTAMARIA</option>
-                                                <option value="MARCOS RAMOS">MARCOS RAMOS</option>
-                                                 <option value="OTRO">OTRO</option>
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <div class="col-md-6">
-                                        <div class="form-group">
                                             <label for="">CURSOS TRADICIONALES </label>
                                             <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>
+                                                <option value=""></option>    
                                                 <option value="SOLDADURA">SOLDADURA</option>
                                                 <option value="CARPINTERIA">CARPINTERIA</option>
                                                 <option value="ELECTRICIDAD">ELECTRICIDAD</option>
@@ -156,87 +150,6 @@ include('../app/config.php');
                                 </div>
 
 
-
-                                      <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="">CUROS GENERALES</label>
-                                            <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>
-                                                <option value="REPOSTERIA">REPOSTERIA</option>
-                                                <option value="INGLES">INGLES</option>
-                                                <option value="PANADERIA">PANADERIA</option>
-                                                <option value="BARBERIA">BARBERIA</option>
-                                                 <option value="BELLEZA Y COSMETOLOGIA">BELLEZA Y COSMETOLOGIA</option>
-                                                <option value="UÑAS ACRILICAS ">UÑAS ACRILICAS</option>
-                                                <option value="REFRIGERACION BASICA">REFRIGERACION BASICA</option>
-                                                <option value="INSTALACION Y MANTENIMIENTO DE AIRES ACONDICIONADOS">INSTALACION Y MANTENIMIENTO DE AIRES ACONDICIONADOS</option>
-                                                <option value="FLORISTERIA PARA EVENTOS">FLORISTERIA PARA EVENTOS</option>
-                                                 <option value="BISUTERIA">BISUTERIA</option>
-                                                <option value="UÑAS ACRILICAS">UÑAS ACRILICADV S</option>
-                                                <option value="OTRO">OTRO</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                     <div class="col-md-6">
-                                        <div class="form-group">
-                                           <label for="">TALLERES GASTRONOMIA</label>
-                                            <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>
-                                                <option value="MODULO DE PIZZAS">MODULO DE PIZZAS</option>
-                                                <option value="MODULO DE HAMBURGUESAS">MODULO DE HAMBURGUESAS</option>
-                                                <option value="MODULO ALITAS Y CHICKEN FINGERS">MODULO DE AITAS Y CHICKEN FINGERS</option>
-                                                <option value="MODULO COMIDA ASIATICA">MODULO COMIDA ASIATICA</option>
-                                                <option value="MODULO COMIDA CHINA">MODULO COMIDA CHINA</option>
-                                                <option value="MODULO COMIDA ITALIANA">MODULO DE COMIDA ITALIANA</option>
-                                                <option value="MODULO DE TABLAS DE QUESO">MODULO DE TABLAS DE QUESO</option>
-                                                <option value="MODULO DE BOQUITAS">MODULO DE BOQUITAS</option>
-                                                <option value="MODULO DE ENCURTIDOS Y JALEAS">MODULO DE ENCURTIDOS Y JALEAS</option>
-                                                <option value="MODULO DE LACTEOS">MODULO DE LACTEOS</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                          <div class="col-md-6">
-                                           <div class="form-group">
-                                            <label for="">TALLERES REPOSTERIA</label>
-                                            <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>
-                                                <option value="MODULO DE POSTRES FRIOS">MODULO DE POSTRES FRIOS</option>
-                                                <option value="MODULO DE ELABORACION Y DECORACION DE PASTELES">MODULO DE ELABORACION Y DECORACION DE PASTELES</option>
-                                                <option value="MODULO DE DONAS">MODULO DE DONAS</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                              
-                                          <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="">TALLERES GENERALES</label>
-                                            <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>
-                                                <option value="ELABORACION DE JABONES Y VELAS">ELABORACION DE JABONES Y VELAS</option>
-                                                <option value="ELABORACION DE VINOS ARTESANALES">ELABORACION DE VINOS ARTESANALES</option>
-                                                <option value="ELABORACION DE PIÑATAS">ELABORACION DE PIÑATAS</option>
-                                                <option value="BARTENDER">BARTENDER</option>
-                                                <option value="PRIMEROA AUXILIOS">PRIMEROS AUXILIOS</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                        
-                                        
-                                        
-                                    
-
-                                        
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -249,7 +162,6 @@ include('../app/config.php');
                                                 <option value="VIERNES">VIERNES</option>
                                                 <option value="SABADO">SABADO</option>
                                                 <option value="DOMINGO">DOMINGO</option>
-                                                 <option value="LUNES - MARTES">LUNES - MARTES</option>
                                                 <option value="LUNES - MARTES - VIERNES">LUNES - MARTES - VIERNES</option>
                                                 <option value="MIERCOLES - JUEVES - SABADO">MIERCOLES - JUEVES - SABADO</option>
                                                 <option value="SABADO - DOMINGO">SABADO - DOMINGO</option>
@@ -262,7 +174,7 @@ include('../app/config.php');
                                             <label for="">HORARIO </label>
                                             <select name="horario" id="" class="form-control" required>
                                                 <option value="08:00 - 16:00">08:00 - 16:00</option>    
-                                                <option value="08:00 - 12:00">08:00 - 12:00</option>
+                                                 <option value="08:00 - 12:00">08:00 - 12:00</option>
                                                 <option value="13:00 - 16:00">13:00 - 16:00</option>
                                             </select>
                                         </div>
@@ -294,7 +206,7 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">NÚMERO DE DEPOSITO  O RECIBO : (EJEMPLO = 10XXXXX3)  </label>
+                                            <label for="">NÚMERO DE DEPOSITO : (EJEMPLO = 10XXXXX3)  </label>
                                             <input type="text" name="nro_deposito_matricual" class="form-control" required>
                                         </div>
                                     </div>
@@ -305,6 +217,7 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+
                                 <hr>
 
                                 <hr>
