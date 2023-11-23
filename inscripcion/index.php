@@ -155,6 +155,30 @@ include('../app/config.php');
                                     </div>
                                 </div>
 
+                                     <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">CUROS GENERALES</label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
+                                                <option value="REPOSTERIA">REPOSTERIA</option>
+                                                <option value="INGLES">INGLES</option>
+                                                <option value="PANADERIA">PANADERIA</option>
+                                                <option value="BARBERIA">BARBERIA</option>
+                                                 <option value="BELLEZA Y COSMETOLOGIA">BELLEZA Y COSMETOLOGIA</option>
+                                                <option value="UÑAS ACRILICAS ">UÑAS ACRILICAS</option>
+                                                <option value="REFRIGERACION BASICA">REFRIGERACION BASICA</option>
+                                                <option value="INSTALACION Y MANTENIMIENTO DE AIRES ACONDICIONADOS">INSTALACION Y MANTENIMIENTO DE AIRES ACONDICIONADOS</option>
+                                                <option value="FLORISTERIA PARA EVENTOS">FLORISTERIA PARA EVENTOS</option>
+                                                 <option value="BISUTERIA">BISUTERIA</option>
+                                                <option value="UÑAS ACRILICAS">UÑAS ACRILICADV S</option>
+                                                <option value="OTRO">OTRO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                        
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
@@ -167,6 +191,7 @@ include('../app/config.php');
                                                 <option value="VIERNES">VIERNES</option>
                                                 <option value="SABADO">SABADO</option>
                                                 <option value="DOMINGO">DOMINGO</option>
+                                                 <option value="LUNES - MARTES">LUNES - MARTES</option>
                                                 <option value="LUNES - MARTES - VIERNES">LUNES - MARTES - VIERNES</option>
                                                 <option value="MIERCOLES - JUEVES - SABADO">MIERCOLES - JUEVES - SABADO</option>
                                                 <option value="SABADO - DOMINGO">SABADO - DOMINGO</option>
