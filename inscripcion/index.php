@@ -92,19 +92,23 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">TUTOR </label>
                                             <select name="tutor" id="" class="form-control" required>
-                                                <option value="ALVERTINA H">ALVERTINA H</option>
+                                                <option value="ALBERINA HERNANDEZ">ALBERTINA HERNANDEZ</option>
                                                 <option value="NOEL LOPEZ">NOEL LOPEZ</option>
-                                                <option value="MIRNA LOPEZ">MIRNA LOPEZ</option>
-                                                <option value="ABILIO MIMRAN">ABILIO MIMRAN</option>
+                                                <option value="MIRNA GOMEZ">MIRNA GOMEZ</option>
+                                                <option value="ABILIO MIRANDA">ABILIO MIRANDA</option>
                                                 <option value="WENDY VENTURA">WENDY VENTURA</option>
                                                 <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
                                                 <option value="EVELIN TABORA">EVELIN TABORA</option>
-                                                <option value="CARMEN PAZ">CARMEN PAZ</option>
+                                                <option value="CARMEN CASTRO">CARMEN CASTRO</option>
                                                 <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
                                                 <option value="CARLOS KIBHER">CARLOS KIBHER</option>
                                                 <option value="CARLOS LEON">CARLOS LEON</option>
                                                 <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
                                                 <option value="KAREN ALFARO">KAREN ALFARO</option>
+                                                 <option value="ALEJANDRA PORTILLO">ALEJANDRA PORTILLO</option>
+                                                <option value="XIOMARA SANTAMARIA">XIOMARA SANTAMARIA</option>
+                                                <option value="MARCOS RAMOS">MARCOS RAMOS</option>
+                                                 <option value="OTRO">OTRO</option>
                                             </select>
                                         </div>
                                     </div>
