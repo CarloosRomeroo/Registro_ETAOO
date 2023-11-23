@@ -118,6 +118,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">CURSOS TRADICIONALES </label>
                                             <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="SOLDADURA">SOLDADURA</option>
                                                 <option value="CARPINTERIA">CARPINTERIA</option>
                                                 <option value="ELECTRICIDAD">ELECTRICIDAD</option>
@@ -132,6 +133,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">GASTRONOMIA GENERAL </label>
                                             <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="GASTRONOMIA PARA CHEF">GASTRONOMIA PARA CHEF</option>
                                                 <option value="GASTRONOMIA PARA SUB CHEF">GASTRONOMIA PARA SUB CHEF</option>
                                                 <option value="AYUDANTES DE COCINA">AYUDANTES DE COCINA</option>
@@ -144,6 +146,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">BARISMO</label>
                                             <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="BARISMO BASICO">BARISMO BASICO</option>
                                                 <option value="BARISMO INTERMEDIO">BARISMO INTERMEDIO</option>
                                                 <option value="CATACION">CATACION</option>
