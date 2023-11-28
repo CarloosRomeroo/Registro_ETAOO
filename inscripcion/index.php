@@ -396,6 +396,20 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">NÚMERO DE IDENTIDAD : (EJEMPLO = 00XX-00XX-00XXX)  </label>
+                                            <input type="text" name="nro_deposito_matricual" class="form-control" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">ADJUNTAR LA FOTO DE LA CEDULA </label>
+                                            <input type="file" name="foto_deposito_matricula" class="form-control" required>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <hr>
 
