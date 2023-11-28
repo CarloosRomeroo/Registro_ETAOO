@@ -285,6 +285,49 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">TUTOR </label>
+                                            <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="ABILIO MIRANDA">ABILIO MIRANDA</option>
+                                                <option value="MIRNA GOMEZ">MIRNA GOMEZ</option>
+                                                <option value="CARMEN CASTRO">CARMEN CASTRO</option>
+                                                <option value="ALBERTINA HERNANDEZ">ALBERTINA HERNANDEZ</option>
+                                                <option value="WENDY VENTURA">WENDY VENTURA</option>
+                                                <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
+                                                <option value="EVELIN TABORA">EVELIN TABORA</option>
+                                                <option value="ALEJANDRA PORTILLO">ALEJANDRA PORTILLO</option>
+                                                <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
+                                                <option value="CARLOS KIBHER">CARLOS KIBHER</option>
+                                                <option value="CARLOS LEON">CARLOS LEON</option>
+                                                <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
+                                                <option value="KAREN ALFARO">KAREN ALFARO</option>
+                                                <option value="XIOMARA SANTAMARIA">XIOMARA SANTAMARIA</option>
+                                                <option value="MARCOS RAMOS">MARCOS RAMOS</option>
+                                                 <option value="OTRO">OTRO</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="">MERCADEO Y COMERCIALIZACION </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="EXPORTACION  E IMPORTACION DE PRODUCTOS Y MAQUINARIA">SOLDADURA</option>
+                                                <option value="ATENCION AL CLIENTE">ATENCION A CLIENTE</option>
+                                                <option value="PLANES Y MODELOS DE NEGOCIO">PLANES Y MODELOS DE NEGOCIO</option>
+                                                <option value="ESTUDIO DE MERCADO">ESTUDIO DE MERCADO</option>
+                                                <option value="ESTRATEGIA DE VENTA Y MARKETING DIGITAL">ESTRATEGIA DE VENTA Y MARKETING DIGITAL</option>
+                                                <option value="HERRAMIENTAS DE RECOLECCION DE DATOS">HERRAMIENTAS DE RECOLOECCION DE DATOS</option>
+                                                <option value="ANALISIS ESTADISTICO">ANALISIS DESTADISTICOS</option>
+                                                <option value="USO DE REDES SOCIALES">USO DE REDES SOCIALES</option>
+                                                <option value="CREACION Y DESAROLLO DE NUEVOS PRODUCTOS">CREACION Y DESAROLLO DE NUEVOS PRODUCTOS</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
 
                                 <div class="row">
                                     <div class="col-md-6">
