@@ -306,28 +306,35 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="col-md-6">
+                                 <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">TUTOR </label>
                                             <select name="tutor" id="" class="form-control" required>
                                                 <option value=""></option>    
-                                                <option value="ABILIO MIRANDA">ABILIO MIRANDA</option>
-                                                <option value="MIRNA GOMEZ">MIRNA GOMEZ</option>
-                                                <option value="CARMEN CASTRO">CARMEN CASTRO</option>
-                                                <option value="ALBERTINA HERNANDEZ">ALBERTINA HERNANDEZ</option>
-                                                <option value="WENDY VENTURA">WENDY VENTURA</option>
-                                                <option value="DANILO LEYVA HERNANDEZ">DANILO LEYVA HERNANDEZ</option>
-                                                <option value="EVELIN TABORA">EVELIN TABORA</option>
-                                                <option value="ALEJANDRA PORTILLO">ALEJANDRA PORTILLO</option>
-                                                <option value="ANUAR MALDONADO">ANUAR MALDONADO</option>
-                                                <option value="CARLOS KIBHER">CARLOS KIBHER</option>
-                                                <option value="CARLOS LEON">CARLOS LEON</option>
-                                                <option value="CARLOS VALENZUELA">CARLOS VALENZUELA</option>
-                                                <option value="KAREN ALFARO">KAREN ALFARO</option>
-                                                <option value="XIOMARA SANTAMARIA">XIOMARA SANTAMARIA</option>
-                                                <option value="MARCOS RAMOS">MARCOS RAMOS</option>
-                                                 <option value="OTRO">OTRO</option>
+                                                <option value="COMO CREAR UN CV EFECTIVO">COMO CREAR UN CV EFECTIVO</option>
+                                                <option value="FORMATO Y ESTRUCTURA ADECUADA">FORMATO Y ESTRUCTURA ADECUADA</option>
+                                                <option value="DESTACAR LOGROS Y HABILIDADES">DESTACAR LOGROS Y HABILIDADES</option>
+                                                <option value="COMO REDACTAR UNA CARTA DE PRESENTACION PERSUSIVA">COMO REDACTAR UNA CARTA DE PRESENTACION PERSUSIVA</option>
+                                                <option value="PERSONALIZACION PARA DIFERENTES EMPLEADORES">WENDY VENTURA</option>
+                                                <option value="ACOMPAÑAR EL CV DE MANERA EFECTIVA">ACOMPAÑAR EL CV DE MANERA EFECTIVA</option>
+                                                <option value="PRESENTACION PARA ENTREVISTAS">PRESENTACION PARA ENTREVISTAS</option>
+                                                <option value="PREGUNTAS COMUNES EN ENTREVISTAS Y RESPUESTAS ADECUADAS">PREGUNTAS COMUNES EN ENTREVISTAS Y RESPUESTAS ADECUADAS</option>
+                                                <option value="TECNICA DE COMUNICACION NO VERBAL">TECNICA DE COMUNICACION NO VERBAL</option>
+                                                <option value="ESTRATEGIAS DE BUSQUEDA DE TRABAJO">ESTRATEGIAS DE BUSQUEDA DE TRABAJO</option>
+                                                <option value="USO DE REDES PROFESIONALES Y SITIOS WEB DE EMPLEO">USO DE REDES PROFESIONALES Y SITIOS WEB DE EMPLEO</option>
+                                                <option value="COMO APROVECHAR LAS FERIAS DE EMPLEO">COMO APROVECHAR LAS FERIAS DE EMPLEO</option>
+                                                <option value="HABILIDADES DE COMUNICACIOIN EFECTIVA">HABILIDADES DE COMUNICACIOIN EFECTIVA</option>
+                                                <option value="TRABAJO EN EQUIPO Y COLOBORACIONES">TRABAJO EN EQUIPO Y COLOBORACIONES</option>
+                                                <option value="GESTION DEL CONFLICTO EN EL ENTORNO LABORAL">GESTION DEL CONFLICTO EN EL ENTORNO LABORAL</option>
+                                                 <option value="LIDERAZGO EFECTIVO EN EL TRABAJO">LIDERAZGO EFECTIVO EN EL TRABAJO</option>
+                                                 <option value="TOMA DE DECISIONES Y RESOUCION DE PROBLEMAS">TOMA DE DECISIONES Y RESOUCION DE PROBLEMAS</option>
+                                                <option value="MOTIVACION Y GESTION DE EQUIPOS">MOTIVACION Y GESTION DE EQUIPOS</option>
+                                                <option value="TECNICAS DE GESTION DE EMPLEO">ECNICAS DE GESTION DE EMPLEO</option>
+                                                <option value="PRIORIZACION DE TAREAS">PRIORIZACION DE TAREAS</option>
+                                                <option value="EVITAR LA PROCRASTINACION">EVITAR LA PROCRASTINACION</option>
+                                                <option value="USO DE HERRAMIENTAS DE PRODUCTIVIDAD EN LINEA">USO DE HERRAMIENTAS DE PRODUCTIVIDAD EN LINEA</option>
+                                                <option value="CONOCIMIENTOS BASICOS DE PROGRAMACIÓN">CONOCIMIENTOS BASICOS DE PROGRAMACIÓN</option>
+                                                 <option value="SEGURIDAD EN LINEA Y PRIVACIDAD">SEGURIDAD EN LINEA Y PRIVACIDAD</option>
                                             </select>
                                         </div>
                                     </div>
@@ -336,15 +343,28 @@ include('../app/config.php');
                                             <label for="">MERCADEO Y COMERCIALIZACION </label>
                                             <select name="especialidad" id="" class="form-control" required>
                                                 <option value=""></option>    
-                                                <option value="EXPORTACION  E IMPORTACION DE PRODUCTOS Y MAQUINARIA">SOLDADURA</option>
-                                                <option value="ATENCION AL CLIENTE">ATENCION A CLIENTE</option>
-                                                <option value="PLANES Y MODELOS DE NEGOCIO">PLANES Y MODELOS DE NEGOCIO</option>
-                                                <option value="ESTUDIO DE MERCADO">ESTUDIO DE MERCADO</option>
-                                                <option value="ESTRATEGIA DE VENTA Y MARKETING DIGITAL">ESTRATEGIA DE VENTA Y MARKETING DIGITAL</option>
-                                                <option value="HERRAMIENTAS DE RECOLECCION DE DATOS">HERRAMIENTAS DE RECOLOECCION DE DATOS</option>
-                                                <option value="ANALISIS ESTADISTICO">ANALISIS DESTADISTICOS</option>
-                                                <option value="USO DE REDES SOCIALES">USO DE REDES SOCIALES</option>
-                                                <option value="CREACION Y DESAROLLO DE NUEVOS PRODUCTOS">CREACION Y DESAROLLO DE NUEVOS PRODUCTOS</option>
+                                                <option value="PLANIFICACION DE CARRERA A LARGO PLAZO">PLANIFICACION DE CARRERA A LARGO PLAZO</option>
+                                                <option value="LA IMPORTANCIA DE LA CAPACITACION CONTINUA">LA IMPORTANCIA DE LA CAPACITACION CONTINUA</option>
+                                                <option value="OBTENCION DE CERTIFICACIONES Y GRADOS ADICIONALES">OBTENCION DE CERTIFICACIONES Y GRADOS ADICIONALES</option>
+                                                <option value="INICIO DE UN NEGOCIO PROPIO">INICIO DE UN NEGOCIO PROPIO</option>
+                                                <option value="PLANIFICACION EMPRESARIAL">PLANIFICACION EMPRESARIAL</option>
+                                                <option value="FINANZAS PARA EMPRENDEDORES">FINANZAS PARA EMPRENDEDORES</option>
+                                                <option value="COMPORTAMIENTO ETICO EN EL LUGAR DE TRABAJO">COMPORTAMIENTO ETICO EN EL LUGAR DE TRABAJO</option>
+                                                <option value="RESPONSABILIDAD SOCIAL CORPORATIVA">RESPONSABILIDAD SOCIAL CORPORATIVA</option>
+                                                <option value="CREACION DE UN ENTORNO INCLUSIVO">CREACION DE UN ENTORNO INCLUSIVO</option>
+                                                <option value="PREVENCION DE LA DISCRIMINACION Y EL ACOSO LABORAL">PREVENCION DE LA DISCRIMINACION Y EL ACOSO LABORAL</option>
+                                                <option value="DESAROLLO DE RESILIENCIA EMOCIONAL">DESAROLLO DE RESILIENCIA EMOCIONAL</option>
+                                                <option value="TECNICAS DE MANEJO DEL ESTRES">TECNICAS DE MANEJO DEL ESTRES</option>
+                                                <option value="COMO MANTENER EL EQUILIBRIO ENTRE TRABAJO Y VIDA PERSONAL">COMO MANTENER EL EQUILIBRIO ENTRE TRABAJO Y VIDA PERSONAL</option>
+                                                <option value="TECNICAS DE NEGOCIACION">TECNICAS DE NEGOCIACION</option>
+                                                <option value="RESOLUCION DE CONFLICTOS EN EL TRABAJO">RESOLUCION DE CONFLICTOS EN EL TRABAJO</option>
+                                                <option value="HABILIDADES DE MEDIACION">HABILIDADES DE MEDIACION</option>
+                                                <option value="COMUNICACION CON COLEGAS SUPERIORES Y SUBORDINADOS">COMUNICACION CON COLEGAS SUPERIORES Y SUBORDINADOS</option>
+                                                <option value="PRESENTACIONES EFECTIVAS">PRESENTACIONES EFECTIVAS</option>
+                                                <option value="COMUNICACION EN ENTORNOS VIRTUALES">COMUNICACION EN ENTORNOS VIRTUALES</option>
+                                                <option value="TRANSICION EXITOSA DE LA ESCUELA AL TRABAJO">TRANSICION EXITOSA DE LA ESCUELA AL TRABAJO</option>
+                                                <option value="EXPECTATIVAS EN EL PRIMER EMPLEO">EXPECTATIVAS EN EL PRIMER EMPLEO</option>
+                                                <option value="DESAROLLO DE HABILIDADES INICIALES EN EL TRABAJO">DESAROLLO DE HABILIDADES INICIALES EN EL TRABAJO</option>
                                             </select>
                                         </div>
                                     </div>
