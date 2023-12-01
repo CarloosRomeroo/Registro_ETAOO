@@ -17,7 +17,7 @@ include('../app/config.php');
     <!-- Google Font: Source Sans Pro -->
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-    <script src="<?php echo $URL;?>/public/js/jquery-3.5.1.min.js"></script>
+    <script src="<?php echo $URL;?>/public/js/jquery- 3.5.1.min.js"></script>
 </head>
 <body style=" background-image: url('https://cdn.pixabay.com/photo/2023/11/01/17/55/etaoo-8358513_960_720.jpg');
     background-repeat: no-repeat;
@@ -97,24 +97,44 @@ include('../app/config.php');
                                             </select>
                                         </div>
                                     </div>
+                                    <div class="col-md-5">
+                                        <div class="form-group">
+                                            <label for="">MUNICIPIO </label>
+                                            <select name="especialidad" id="" class="form-control" required>
+                                                <option value=""></option>    
+                                                <option value="SANTA ROSA DE COPAN">SANTA ROSA DE COPAN</option>
+                                                <option value="CABAÑAS">CABAÑAS</option>
+                                                <option value="CONCEPCION">CONCEPCION</option>
+                                                <option value="COPAN RUINAS">COPAN RUINAS</option>
+                                                <option value="CORQUIN">CORQUIN</option>
+                                                <option value="CUCUYAGUA">CUCUYAGUA</option> 
+                                                <option value="DOLORES">DOLORES</option>
+                                                <option value="DULCE NOMBRE">DULCE NOMBRE</option>
+                                                <option value="EL PARAISO">EL PARAISO</option>
+                                                <option value="FLORIDA">FLORIDA</option>
+                                                <option value="LA JIGUA">LA JIGUA</option>
+                                                <option value="LA UNION">LA UNION</option>
+                                                <option value="NUEVA ARCADIA">NUEVA ARCADIA</option>
+                                                <option value="SAN AGUSTIN">SAN AGUSTIN</option>
+                                                <option value="SAN JERONIMO">SAN JERONIMO</option>
+                                                <option value="SAN JOSE">SAN JOSE</option>
+                                                <option value="SAN JUAN DE OPOA">SAN JUAN DE OPOA</option>
+                                                <option value="SAN NICOLAS">SAN NICOLAS</option>
+                                                <option value="SAN PEDRO COPAN">SAN PEDRO COPAN</option>
+                                                <option value="SANTA RITA">SANTA RITA</option>
+                                                <option value="TRINIDAD COPAN">TRINIDAD COPAN</option>
+                                                <option value="VERACRUZ">VERACRUZ</option>
+                                                <option value="OTRO">OTRO</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                     <div class="col-md-3">
                                         <div class="form-group">
                                             <label for="">BARRIO/COLONIA </label>
                                             <input type="text" name="ci" class="form-control" required>
                                         </div>
                                     </div>
-                                    <div class="col-md-5">
-                                        <div class="form-group">
-                                            <label for="">DEPARTAMENTO </label>
-                                            <select name="especialidad" id="" class="form-control" required>
-                                                <option value=""></option>    
-                                                <option value="SANTA ROSA DE COPAN">SANTA ROSA DE COPAN</option>
-                                                <option value="CARPINTERIAz">CARPINTERIA</option>
-                                                <option value="ELECTRICIDAD">ELECTRICIDAD</option>
-                                                <option value="CORTE Y CONFECCION">CORTE Y CONFECCION</option>
-                                            </select>
-                                        </div>
-                                    </div>
+                                
                                 </div>
                                 </div>
 
@@ -124,6 +144,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">TUTOR </label>
                                             <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>    
                                                 <option value="ABILIO MIRANDA">ABILIO MIRANDA</option>
                                                 <option value="MIRNA GOMEZ">MIRNA GOMEZ</option>
                                                 <option value="CARMEN CASTRO">CARMEN CASTRO</option>
@@ -162,8 +183,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">GASTRONOMIA GENERAL </label>
                                             <select name="tutor" id="" class="form-control" required>
-                                                <option value=""></option>
-                                                <option value="GASTRONOMIA PARA CHEF">GASTRONOMIA PARA CHEF</option>
+                                                <option value=""></option>    
                                                 <option value="GASTRONOMIA PARA SUB CHEF">GASTRONOMIA PARA SUB CHEF</option>
                                                 <option value="AYUDANTES DE COCINA">AYUDANTES DE COCINA</option>
                                                 <option value="GASTRONOMIA NACIONAL E INTERNACIONAL">GASTRONOMIA NACIONAL E INTERNACIONAL</option>
@@ -187,8 +207,9 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">CURSOS GENERALES</label>
+                                            <label for="">CURSOS GENERALES </label>
                                             <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="INGLES">INGLES</option>
                                                 <option value="REPOSTERIA">REPOSTERIA</option>
                                                 <option value="PANADERIA">PANADERIA</option>
@@ -205,7 +226,7 @@ include('../app/config.php');
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">TALLERES GENERALES</label>
+                                            <label for="">TALERES GENERALES  </label>
                                             <select name="especialidad" id="" class="form-control" required>
                                                 <option value=""></option>    
                                                 <option value="ELABORACION DE JABONES Y VELAS">ELABORACION DE JABONES Y VELAS</option>
@@ -223,6 +244,7 @@ include('../app/config.php');
                                         <div class="form-group">
                                             <label for="">TALLERES GASTRONOMIA </label>
                                             <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="MODULO DE PIZZA">MODULO DE PIZZA</option>
                                                 <option value="MODULO DE HAMBURGUESAS">MODULO DE HABURGUESAS</option>
                                                 <option value="MODULO DE ALITAS Y CHICKEN FINGERS">MODULO DE ALITAS Y CHICKEN FINGERS</option>
@@ -233,7 +255,6 @@ include('../app/config.php');
                                                 <option value="MODULO DE BOQUITAS">MODULO DE BOQUITAS</option>
                                                 <option value="MODULO DE ENCURTIDOS Y JALEAS">MODULO DE ENCURTIDOS Y JALEAS</option>
                                                 <option value="MODULO DE LACTEOS">MODULO DE LACTEOS</option>
-                                                
                                             </select>
                                         </div>
                                     </div>
@@ -254,8 +275,9 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">ADMINISTRACIONDE EMPRESAS</label>
+                                            <label for="">ADMINISTRACION DE EMPRESAS </label>
                                             <select name="tutor" id="" class="form-control" required>
+                                                <option value=""></option>
                                                 <option value="PROCEDIMIENTOS ADMINISTRATIVOS">PROCEDIMIENTOS ADMINISTRATIVOS</option>
                                                 <option value="ANALISIS FINANCIEROS Y TOMA DE DECISIONES">ANALISIS FINANCIEROS Y TOMA DE DECISIONES </option>
                                                 <option value="CONTABILIDAD DE COSTOS">CONTABILIDAD DE COSTOS</option>
@@ -263,16 +285,15 @@ include('../app/config.php');
                                                 <option value="EDUCACION FINANCIERA">EDUCACION FINANCIERA</option>
                                                 <option value="CONTABILIDAD BASICA">CONTABILIDAD BASICA</option>
                                                 <option value="CALCULO DE IMPUESTOS SOBRE VENTA Y RENTA">CALCULO DE IMPUESTOS SOBRE VENTA Y RENTA</option>
-                                               
                                             </select>
                                         </div>
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">MERCADEO Y COMERCIALIZACIÓN</label>
+                                            <label for="">MERCADEO Y COMERCIALIZACION </label>
                                             <select name="especialidad" id="" class="form-control" required>
                                                 <option value=""></option>    
-                                                <option value="EXPORTACION  E IMPORTACION DE PRODUCTOS Y MAQUINARIA">SOLDADURA</option>
+                                                <option value="EXPORTACION  E IMPORTACION DE PRODUCTOS Y MAQUINARIA">EXPORTACION  E IMPORTACION DE PRODUCTOS Y MAQUINARIA</option>
                                                 <option value="ATENCION AL CLIENTE">ATENCION A CLIENTE</option>
                                                 <option value="PLANES Y MODELOS DE NEGOCIO">PLANES Y MODELOS DE NEGOCIO</option>
                                                 <option value="ESTUDIO DE MERCADO">ESTUDIO DE MERCADO</option>
@@ -385,7 +406,7 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">NÚMERO DE DEPOSITO : (EJEMPLO = 10XXXXX3)  </label>
+                                            <label for="">NÚMERO DE DEPOSITO O RECIBO : (EJEMPLO = 10XXXXX3)  </label>
                                             <input type="text" name="nro_deposito_matricual" class="form-control" required>
                                         </div>
                                     </div>
@@ -396,13 +417,8 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label for="">NÚMERO DE IDENTIDAD : (EJEMPLO = 00XX-00XX-00XXX)  </label>
-                                            <input type="text" name="nro_deposito_matricual" class="form-control" required>
-                                        </div>
-                                    </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
                                             <label for="">ADJUNTAR LA FOTO DE LA CEDULA </label>
@@ -410,6 +426,7 @@ include('../app/config.php');
                                         </div>
                                     </div>
                                 </div>
+
 
                                 <hr>
 
