@@ -62,13 +62,13 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-4">
                                         <div class="form-group">
-                                            <label for="">APELLIDOS Y NOMBRES (MAYÚSCULA) </label>
+                                            <label for="">NOMBRES Y APELLIDOS (MAYÚSCULA) </label>
                                             <input type="text" name="apellidos_nombres" class="form-control" required>
                                         </div>
                                     </div>
                                     <div class="col-md-3">
                                         <div class="form-group">
-                                            <label for="">DNI </label>
+                                            <label for="">CODIGO DE ESTUDIANTE </label>
                                             <input type="number" name="ci" class="form-control" required>
                                         </div>
                                     </div>
@@ -226,7 +226,7 @@ include('../app/config.php');
                                     </div>
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">TALERES GENERALES  </label>
+                                            <label for="">TALLERES GENERALES  </label>
                                             <select name="tGeneral" id="" class="form-control" required>
                                                 <option value=""></option>    
                                                 <option value="ELABORACION DE JABONES Y VELAS">ELABORACION DE JABONES Y VELAS</option>
@@ -441,7 +441,7 @@ include('../app/config.php');
                                 <div class="row">
                                     <div class="col-md-6">
                                         <div class="form-group">
-                                            <label for="">ADJUNTAR LA FOTO DE LA CEDULA </label>
+                                            <label for="">ADJUNTAR LA FOTO DEL DNI </label>
                                             <input type="file" name="fotoCedula" class="form-control" required>
                                         </div>
                                     </div>
