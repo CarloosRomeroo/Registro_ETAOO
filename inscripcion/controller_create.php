@@ -27,23 +27,36 @@ if($contador>0){
 }else{
     //echo "no fue registrado";
     $apellidos_nombres = $_POST['apellidos_nombres'];
-
-    $celular = $_POST['celular'];
+    $ci = $_POST['ci'];
+    $nroCelular = $_POST['nroCelular'];
     $correo = $_POST['correo'];
+    $genero = $_POST['genero'];
+    $municipio = $_POST['municipio'];
+    $barrio = $_POST['barrio'];
     $tutor = $_POST['tutor'];
-    $especialidad = $_POST['especialidad'];
-    $ano_for = $_POST['ano_for'];
+    $cTradicional = $_POST['cTradicional'];
+    $cGastronomia = $_POST['cGastronomia'];
+    $cBarismo = $_POST['cBarismo'];
+    $cGeneral = $_POST['cGeneral'];
+    $tGeneral = $_POST['tGeneral'];
+    $tGastronomia = $_POST['tGastronomia'];
+    $tReposteria = $_POST['tReposteria'];
+    $adminEmpresas = $_POST['adminEmpresas'];
+    $mercaYcomercializacion = $_POST['mercaYcomercializacion'];
+    $jornada = $_POST['jornada'];
     $horario = $_POST['horario'];
-    $tipo_matriculacion = $_POST['tipo_matriculacion'];
-    $nro_deposito_matricual = $_POST['nro_deposito_matricual'];
+    $tipoMatricula = $_POST['tipoMatricula'];
+    $nroDeposito = $_POST['nroDeposito'];
+    $nroID = $_POST['nroId'];
+    $pFormativa = $_POST['pFormativa'];
 
 
 
 //$foto_deposito_matricula = $_POST['foto_deposito_matricula'];
     $nombre_de_foto_perfil = "".date('Y-m-d-h-i-s');
-    $filename1 = $nombre_de_foto_perfil."__".$_FILES['foto_deposito_matricula']['name'];
+    $filename1 = $nombre_de_foto_perfil."__".$_FILES['fotoDeposito']['name'];
     $location = "documentos/".$filename1;
-    move_uploaded_file($_FILES['foto_deposito_matricula']['tmp_name'],$location);
+    move_uploaded_file($_FILES['fotoDeposito']['tmp_name'],$location);
 
 
 
@@ -56,21 +69,34 @@ if($contador>0){
 
 
     $sentencia = $pdo->prepare('INSERT INTO tb_ETAOO
-(apellidos_nombres,ci,celular,correo,tutor,especialidad,ano_for,horario,tipo_matriculacion,nro_deposito_matricual,foto_deposito_matricula,documentos, fyh_creacion, estado)
-VALUES ( :apellidos_nombres,:ci,:celular,:correo,:tutor,:especialidad,:ano_for,:horario,:tipo_matriculacion,:nro_deposito_matricual,:foto_deposito_matricula,:documentos,:fyh_creacion,:estado)');
+(apellidos_nombres,ci,nroCelular,correo,genero,municipio,barrio,tutor,cTradicional,cGastronomia,cBarismo,cGeneral,tGeneral,tGastronomia,tReposteria,adminEmpresas,mercaYcomercializacion,pFormativa,jornada,horario,tipoMatricula,nroDeposito,nroId,fotoDeposito,fotoCedula,documentos, fyh_creacion, estado)
+VALUES ( :apellidos_nombres,:ci,nroCelular,:correo,:genero,:municipio,:barrio,:tutor,:cTradicional,:cGastronomia,:cBarismo,:cGeneral,:tGeneral,:tGastronomia,:tReposteria,:adminEmpresas,:mercaYcomercializacion,:pFormativa,:jornada,:horario,:tipoMatricula,:nroDeposito,:nroId,:fotoDeposito,:fotoCedula,:documentos, :fyh_creacion,: estado)');
 
     $sentencia->bindParam(':apellidos_nombres',$apellidos_nombres);
     $sentencia->bindParam(':ci',$ci);
-    $sentencia->bindParam(':celular',$celular);
+    $sentencia->bindParam(':nroCelular',$nroCelular);
     $sentencia->bindParam(':correo',$correo);
+    $sentencia->bindParam(':genero',$genero);
+    $sentencia->bindParam(':municipio',$municipio);
+    $sentencia->bindParam(':barrio',$barrio);
     $sentencia->bindParam(':tutor',$tutor);
-    $sentencia->bindParam(':especialidad',$especialidad);
-    $sentencia->bindParam(':ano_for',$ano_for);
+    $sentencia->bindParam(':cTradicional',$cTradicional);
+    $sentencia->bindParam(':cGastronomia',$cGastronomia);
+    $sentencia->bindParam(':cBarismo',$cBarismo);
+    $sentencia->bindParam(':cGeneral',$cGeneral);
+    $sentencia->bindParam(':tGeneral',$tGeneral);
+    $sentencia->bindParam(':tGastronomia',$tGastronomia);
+    $sentencia->bindParam(':tReposteria',$tReposteria);
+    $sentencia->bindParam(':adminEmpresas',$adminEmpresas);
+    $sentencia->bindParam(':mercaYcomercializacion',$mercaYcomercializacion);
+    $sentencia->bindParam(':pFormativa',$pFormativa);
+    $sentencia->bindParam(':jornada',$jornada);
     $sentencia->bindParam(':horario',$horario);
-    $sentencia->bindParam(':tipo_matriculacion',$tipo_matriculacion);
-    $sentencia->bindParam(':nro_deposito_matricual',$nro_deposito_matricual);
-    $sentencia->bindParam(':foto_deposito_matricula',$filename1);
-    $sentencia->bindParam(':documentos',$filename3);
+    $sentencia->bindParam(':tipoMatricula',$tipoMatricula);
+    $sentencia->bindParam(':nroDeposito',$nroDeposito);
+    $sentencia->bindParam(':nroId',$nroId);
+    $sentencia->bindParam(':fotoDeposito',$fotoDeposito);
+    $sentencia->bindParam(':fotoCedula',$fotoCedula);
     $sentencia->bindParam('fyh_creacion',$fechaHora);
     $sentencia->bindParam('estado',$estado_del_registro);
 
@@ -80,6 +106,4 @@ VALUES ( :apellidos_nombres,:ci,:celular,:correo,:tutor,:especialidad,:ano_for,:
     }else{
         echo 'error al registrar a la base de datos';
     }
-    
 }
-
